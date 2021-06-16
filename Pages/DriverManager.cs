@@ -7,9 +7,9 @@ namespace TestProjectMuramo
 {
    public class DriverManager
     {
-       public static IWebDriver driver { get; private set; };
+       public static IWebDriver driver { get; private set; }
 
-       public void StartBrowser()
+       public static void StartBrowser()
         {
             //Add options for opening browser with more timespan
             ChromeOptions options = new ChromeOptions();
@@ -23,7 +23,7 @@ namespace TestProjectMuramo
             driver.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromSeconds(30));
         }
      
-        public void CloseBrowser()
+        public static void CloseBrowser()
         {
             driver.Close();
         }
