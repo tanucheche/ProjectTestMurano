@@ -54,8 +54,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Pages\BaseTests.cs" />
-        <Compile Include="Pages\DriverManager.cs" />
+        <Compile Include="BaseTests.cs" />
+        <Compile Include="DriverManager.cs" />
         <Compile Include="Pages\EditorPage.cs" />
         <Compile Include="Pages\LogInPage.cs" />
         <Compile Include="Pages\SearchPage.cs" />
