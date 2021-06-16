@@ -16,15 +16,7 @@ namespace TestProjectMuramo
         {
             DriverManager.StartBrowser(); 
         }
-        [Test]
-        public void Test1()
-        {
-            IWebElement course = driver.FindElement(By.Id("Language"));
-            var selectTest = new SelectElement(course);
-            // Select a value from the dropdown				
-            selectTest.SelectByValue("VbNet");
-        }
-
+        
         [TearDown]
         public void TearDownBrowser()
         {
