@@ -7,7 +7,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
-using TestProjectMuramo.Pages;
+
 
 namespace TestProjectMuramo
 {
@@ -17,13 +17,11 @@ namespace TestProjectMuramo
         
         public void Test1()
         {
-            public void Test1()
-            {
-               // IWebElement course = driver.FindElement(By.Id("Language"));
+            // IWebElement course = driver.FindElement(By.Id("Language"));
                // var selectTest = new SelectElement(course);
                 // Select a value from the dropdown				
                // selectTest.SelectByValue("VbNet");
-            }
+            
         }
     }
 }
