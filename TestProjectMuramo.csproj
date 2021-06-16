@@ -54,12 +54,13 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="EditorPage.cs" />
-        <Compile Include="DriverManager.cs" />
-        <Compile Include="LogInPage.cs" />
+        <Compile Include="Pages\BaseTests.cs" />
+        <Compile Include="Pages\DriverManager.cs" />
+        <Compile Include="Pages\EditorPage.cs" />
+        <Compile Include="Pages\LogInPage.cs" />
+        <Compile Include="Pages\SearchPage.cs" />
+        <Compile Include="Pages\SignUpPage.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="SearchPage.cs" />
-        <Compile Include="SignUpPage.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
